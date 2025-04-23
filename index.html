@@ -4,43 +4,74 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SrFrias - Tu tienda online</title>
+  <title>SrFrias - Tienda Online</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f2f2f2; }
-    header { background: #232f3e; color: white; padding: 1rem; text-align: center; }
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f4f4; color: #333; }
+    header { background: linear-gradient(to right, #232f3e, #37475a); color: white; padding: 2rem; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { font-size: 1.2rem; }
     main { padding: 2rem; display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
-    .producto { background: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .producto { background: white; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); transition: transform 0.3s ease; }
+    .producto:hover { transform: scale(1.03); }
     .producto img { width: 100%; height: auto; border-radius: 8px; }
     .producto h2 { font-size: 1.1rem; margin: 0.5rem 0; }
     .producto p { color: #555; }
     .producto a { display: inline-block; margin-top: 0.5rem; background: #ff9900; color: white; padding: 0.5rem 1rem; border-radius: 5px; text-decoration: none; }
-    footer { text-align: center; padding: 1rem; font-size: 0.9rem; color: #555; }
+    footer { text-align: center; padding: 2rem 1rem; font-size: 0.9rem; color: #777; background: #fff; margin-top: 2rem; }
   </style>
 </head>
 <body>
   <header>
-    <h1>SrFrias - ¡Lo mejor de la tecnología y gadgets!</h1>
-    <p>Encuentra productos exclusivos, ofertas y mucho más. ¡Haz que tu vida sea más fácil y divertida!</p>
+    <h1>SrFrias - Tu tienda digital favorita</h1>
+    <p>¡Tecnología, moda, anime, gaming y mucho más al mejor precio!</p>
   </header>
 
   <main>
     <div class="producto">
       <img src="https://m.media-amazon.com/images/I/61DIULrz2GL._AC_SL1500_.jpg" alt="Echo Dot 5" />
       <h2>Echo Dot (5ta generación)</h2>
-      <p>Altavoz inteligente con Alexa, diseño compacto y excelente calidad de sonido.</p>
-      <a href="https://tu-link-de-compra.com" target="_blank">Ver producto</a>
+      <p>Altavoz inteligente con Alexa, compacto y potente. ¡Tu asistente ideal!</p>
+      <a href="#">Ver producto</a>
     </div>
 
     <div class="producto">
       <img src="https://m.media-amazon.com/images/I/71vFKBpKakL._AC_SL1500_.jpg" alt="Fire TV Stick" />
       <h2>Fire TV Stick</h2>
-      <p>Dispositivo de streaming para acceder a todos tus contenidos favoritos en HD.</p>
-      <a href="https://tu-link-de-compra.com" target="_blank">Ver producto</a>
+      <p>Convierte cualquier TV en Smart TV con este pequeño gigante del streaming.</p>
+      <a href="#">Ver producto</a>
+    </div>
+
+    <div class="producto">
+      <img src="https://m.media-amazon.com/images/I/71xS4U+1fNL._AC_SL1500_.jpg" alt="Audífonos inalámbricos" />
+      <h2>Audífonos inalámbricos Bluetooth</h2>
+      <p>Sonido estéreo, carga rápida, estuche portátil. Perfectos para todo el día.</p>
+      <a href="#">Ver producto</a>
+    </div>
+
+    <div class="producto">
+      <img src="https://m.media-amazon.com/images/I/61KeIxmldLL._AC_UL1500_.jpg" alt="Camiseta Anime" />
+      <h2>Camiseta Anime - Naruto</h2>
+      <p>Diseño único inspirado en el mundo ninja. ¡Ideal para fans del anime!</p>
+      <a href="#">Ver producto</a>
+    </div>
+
+    <div class="producto">
+      <img src="https://m.media-amazon.com/images/I/71UwSHSZRnS._AC_SL1500_.jpg" alt="Teclado mecánico RGB" />
+      <h2>Teclado mecánico RGB Gamer</h2>
+      <p>Iluminación multicolor, switches táctiles, estilo pro gamer. ¡A romper!</p>
+      <a href="#">Ver producto</a>
+    </div>
+
+    <div class="producto">
+      <img src="https://m.media-amazon.com/images/I/71KDUNsU5rL._AC_SL1500_.jpg" alt="Gorra estilo urbano" />
+      <h2>Gorra estilo urbano</h2>
+      <p>Look moderno, diseño cómodo. Perfecta para completar tu outfit callejero.</p>
+      <a href="#">Ver producto</a>
     </div>
   </main>
 
   <footer>
-    <p>¡Gracias por visitar SrFrias! Síguenos en redes sociales para más novedades.</p>
+    <p>© 2025 SrFrias - Todos los derechos reservados. Síguenos en nuestras redes para más sorpresas.</p>
   </footer>
 </body>
 </html>
